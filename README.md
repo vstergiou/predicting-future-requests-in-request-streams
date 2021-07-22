@@ -1,5 +1,15 @@
 # predicting-future-requests-in-request-streams
 
+# Overview 
+
+Being able to predict future requestsin a requeststream is vital in building
+effective caches and designing betterreplacement policies and prefetching
+techniques.(space,
+
+In this project, an LSTM neural network architecture is proposed that predicts the next request
+given a sequence of previous requests. The development environment
+used is Tensorflow with Keras.
+
 ## Train and predict commands 
 
 Compile command fortraining: python train_predict.py train ./[file with
