@@ -5,9 +5,9 @@ This project aims to build an LSTM neural network architecture that predicts the
 The development environment used for this project is Tensorflow with Keras. The network consists of two LSTM layers with 50 neurons each, followed by dropout layers with rate 0.2, a dense layer, and a layer that applies the activation function tanh. The training data is normalized to reflect percentage changes from the start of each window, and predictions are denormalized after training.
 
 ## Files in the Repository
-train_predict.py: Python script for training and predicting using the LSTM network
-predictedMemReference.xlsx: Excel file containing the predictions given by the network
-README.md: This file
+* `train_predict.py`: Python script for training and predicting using the LSTM network
+* `predictedMemReference.xlsx`: Excel file containing the predictions given by the network
+* `README.md`: This file
 
 ## How to Use
 ### Dependencies
@@ -17,16 +17,18 @@ README.md: This file
 * Pandas
 # Train the Network
 To train the network, run the following command in the terminal:
-`python train_predict.py train ./[file with train data].xlsx
-`
+```
+python train_predict.py train ./[file with train data].xlsx
+```
 
 Replace [file with train data] with the name of the Excel file containing the training data.
 
 ### Make Predictions
 To make predictions using the trained network, run the following command in the terminal:
 
-`python train_predict.py predict ./[file with data for prediction].xlsx
-`
+```
+python train_predict.py predict ./[file with data for prediction].xlsx
+```
 
 Replace [file with data for prediction] with the name of the Excel file containing the data for prediction.
 
