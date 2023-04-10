@@ -17,16 +17,16 @@ README.md: This file
 * Pandas
 # Train the Network
 To train the network, run the following command in the terminal:
-`code(python train_predict.py train ./[file with train data].xlsx
-)`
+`python train_predict.py train ./[file with train data].xlsx
+`
 
 Replace [file with train data] with the name of the Excel file containing the training data.
 
 # Make Predictions
 To make predictions using the trained network, run the following command in the terminal:
 
-`code(python train_predict.py predict ./[file with data for prediction].xlsx
-)`
+`python train_predict.py predict ./[file with data for prediction].xlsx
+`
 
 Replace [file with data for prediction] with the name of the Excel file containing the data for prediction.
 
