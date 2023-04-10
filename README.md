@@ -10,7 +10,7 @@ predictedMemReference.xlsx: Excel file containing the predictions given by the n
 README.md: This file
 
 ## How to Use
-# Dependencies
+### Dependencies
 * Python 3.7 or later
 * Tensorflow
 * Keras
@@ -22,7 +22,7 @@ To train the network, run the following command in the terminal:
 
 Replace [file with train data] with the name of the Excel file containing the training data.
 
-# Make Predictions
+### Make Predictions
 To make predictions using the trained network, run the following command in the terminal:
 
 `python train_predict.py predict ./[file with data for prediction].xlsx
@@ -30,7 +30,7 @@ To make predictions using the trained network, run the following command in the 
 
 Replace [file with data for prediction] with the name of the Excel file containing the data for prediction.
 
-# Note
+### Note
 * Training took approximately 45 minutes for 50 epochs.
 * Each prediction (on every 999 samples) took 3.25 seconds on average to complete.
 
@@ -38,16 +38,3 @@ Replace [file with data for prediction] with the name of the Excel file containi
 1. https://en.wikipedia.org/wiki/Long_short-term_memory
 2. http://colah.github.io/posts/2015-08-Understanding-LSTMs/
 3. https://machinelearningmastery.com/how-to-scale-data-for-long-short-term-memory-networks-in-python/
---------
-Compile command for training: 
-```
-python train_predict.py train ./[file with
-train data].xlsx
-
-```
-
-Compile command for prediction: 
-```
-python train_predict.py predict./[file
-with data for prediction].xlsx
-```
